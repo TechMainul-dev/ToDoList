@@ -33,6 +33,35 @@ h2 {
 h2 {
     font-size: 20px;
     text-align: center;
+    
+    /* ====================================
+Copyright Area CSS
+======================================== */
+#copyright_area {
+    background: #f2f2f2;
+    padding: 20px 0;
+}
+
+.inner_copyright {
+    overflow: hidden;
+}
+
+.inner_copyright p {
+    margin: 0px;
+    color: #919191;
+    font-size: 12px;
+}
+
+.left_copyright {
+    float: left;
+    width: 60%;
+}
+
+.right_copyright {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
     border-bottom: 1px solid #5684e7;
     padding: 0 0 10px;
     color: #3825a1;
